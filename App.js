@@ -5,7 +5,7 @@ import { Image } from 'react-native'
 import { RFPercentage, RFValue } from "react-native-responsive-fontsize";
 import Home from './pages/home';
 import Alarm from './pages/alarm';
-import Torch from './pages/torch';
+import Torcher from './pages/torch';
 import { createAppContainer } from 'react-navigation';
 import { createStackNavigator} from 'react-navigation-stack';
 
@@ -13,7 +13,7 @@ const RootStack = createStackNavigator(
   {
 
     Home: { screen: Home },
-    Torch: { screen: Torch },
+    Torch: { screen: Torcher },
     Alarm: { screen: Alarm}
 
   },

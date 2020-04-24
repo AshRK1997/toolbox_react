@@ -4,6 +4,7 @@ import CardView from 'react-native-cardview';
 import { Image, TouchableOpacity } from 'react-native'
 import { RFPercentage, RFValue } from "react-native-responsive-fontsize";
 
+
 export default class Home extends Component {
   static navigationOptions = {
     title: 'Home',

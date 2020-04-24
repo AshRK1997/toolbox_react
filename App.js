@@ -12,7 +12,7 @@ import { RFPercentage, RFValue } from "react-native-responsive-fontsize";
 export default class App extends Component {
   render() {
     return (
-      <ScrollView contentContainerStyle={{flexGrow: 1}}>
+      <ScrollView style=styles.scrollView>
       <SafeAreaView style={styles.safeAreaView}>
 
         <View style={styles.container}>
@@ -57,7 +57,7 @@ export default class App extends Component {
 
 const styles = StyleSheet.create({
   scrollView:{
-
+    flexGrow: 1,
     textAlign:'center'
   },
   safeAreaView: {

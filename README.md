@@ -6,7 +6,7 @@ This is an react native app which provides 2 options currently,
 
 To use the code, you can either clone or download into the requird folder, open your terminal and change the directory where you have extracted the code. Now enter,
 
-```cd torcher
+```
 npm install
 react-native run-android
 ```
